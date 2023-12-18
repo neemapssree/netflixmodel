@@ -1,0 +1,17 @@
+.navbar{
+    z-index: 1;
+    color: #fff;
+    display:flex;
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 50px;
+    justify-content: space-between;
+}
+.logo{
+    width:100px;
+    height: fit-content;
+}
+.avatar{
+    width:50px !important;
+}

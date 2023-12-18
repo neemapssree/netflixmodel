@@ -1,0 +1,9 @@
+.RowPost h2{color: #fff;}
+.RowPost{padding:0px 40px; margin: 0px 0px 30px 0px;}
+.posters-container{display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%;}
+.posters{display: flex; flex-direction: row;  gap: 10px; }
+.poster{flex-shrink: 0;  height:200px; width: auto;}
+.small-poster{flex-shrink: 0;  height:120px; width: auto;}
+.posters-container::-webkit-scrollbar{display: none;}
