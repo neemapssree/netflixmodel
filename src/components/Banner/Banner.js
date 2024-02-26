@@ -20,8 +20,7 @@ function Banner() {
     }, []);
 
     console.log("============movies===============", movies);
-    return(
-        
+    return(        
         <div className="Banner" style={{backgroundImage:`url(${movies.length !== 0 ? imageUrl +movies.backdrop_path : ""})`}}>
             <div>
                 <div className="content">
@@ -30,8 +29,8 @@ function Banner() {
                         <h4 style={{color:"#fff"}}>{movies.length !== 0 ? movies.overview : ""}</h4>
                     </div>
                     <div className="bannerBtn">
-                        <button className="play_button"><i className="fa fa-play"></i>Play</button>
-                        <button className="more_button"><i className="fa fa-exclamation"></i>More Info</button>
+                        <button className="play_button"><i className="fa fa-play"></i> Play </button>
+                        <button className="more_button"><i className="fa fa-exclamation"></i> More Info </button>
                     </div>
                 </div>
             </div>
